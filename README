@@ -1,0 +1,3 @@
+This project includes a ROS package (ROS kinetic) and a V-REP scene (VREP version 3.3.2). It covers robot navigation by fuzzy controllers (achieved using FLIE library), simple object detection based on blob detection filter and object manipulation usind forward and inverse kinematics.
+
+To run this project, download and unpack it in your catkin_ws workspace, and do a catkin_make. Start roscore, open V-REP and open the scene file (youbot_mesa_objeto.ttt). After roscore and V-REP are running, all that is left is to start the simulation and run the ros package: run the simulation inside V-REP and in a terminal, do "rosrun vrep_youbot vrep_youbot".
